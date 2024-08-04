@@ -1,0 +1,48 @@
+{
+  "name": "pg5globalsymbolfileconverter",
+  "version": "1.0.0",
+  "description": "NPM module that converts PG5 Global Symbol files into JSON",
+  "main": "dist/esm/index.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "prebuild": "yarn run clean",
+    "prepublish": "yarn run build",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json",
+    "lint": "yarn lint:eslint && yarn lint:prettier && yarn lint:tsc",
+    "test:unit": "jest --config ./test/jest-unit.config.cjs",
+    "lint:eslint": "eslint --cache --cache-strategy content",
+    "lint:eslint:fix": "yarn lint:eslint --fix",
+    "lint:prettier": "npx prettier --check \"**/*.{xml,json,yml,yaml}\"",
+    "lint:prettier:fix": "npx prettier --write \"**/*.{xml,json,yml,yaml}\"",
+    "lint:tsc": "tsc --noEmit",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "@swc/core": "^1.7.5",
+    "@swc/jest": "^0.2.36",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.12",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.4",
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0",
+    "yarn": "^1.22.22"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
