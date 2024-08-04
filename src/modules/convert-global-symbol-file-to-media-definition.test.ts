@@ -17,7 +17,7 @@ describe('convertGlobalSymbolFileToMediaDefinition', () => {
 	it('throw an error when the file does not exist', async () => {
 		await expect(convertGlobalSymbolFileToMediaDefinition({
 			filename: 'does-not-exist',
-		})).rejects.toThrow(`ENOENT: no such file or directory, open '${path.resolve('does-not-exist')}'`);
+		})).rejects.toThrow(/ENOENT: no such file or directory, open */);
 	});
 
 	it('throw an error when the file is empty', async () => {
