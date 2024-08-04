@@ -1,6 +1,6 @@
 {
   "name": "pg5globalsymbolfileconverter",
-  "version": "1.0.0",
+  "version": "0.1.0-alpha.1",
   "description": "NPM module that converts PG5 Global Symbol files into JSON",
   "main": "dist/esm/index.js",
   "exports": {
@@ -44,5 +44,8 @@
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "readlines-iconv": "^2.1.0"
   }
 }

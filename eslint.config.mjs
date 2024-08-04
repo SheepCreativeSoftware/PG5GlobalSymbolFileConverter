@@ -194,6 +194,14 @@ export default [
 			'no-useless-concat': 'error',
 			'no-useless-constructor': 'error',
 			'no-useless-escape': 'error',
+			'no-multiple-empty-lines': [
+				'error',
+				{
+					max: 1,
+					maxBOF: 0,
+					maxEOF: 1,
+				},
+			],
 			'no-useless-rename': [
 				'error',
 				{

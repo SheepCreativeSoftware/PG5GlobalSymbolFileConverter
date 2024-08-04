@@ -14,7 +14,7 @@ module.exports = {
 	testEnvironment: 'node',
 	testRegex: '\\.test\\.ts$',
 	transform: {
-		'^.+\\.(t|j)s$': ['@swc/jest'],
+		'^.+\\.(t|j)s$': '@swc/jest',
 	},
 	setupFilesAfterEnv: [
 		'<rootDir>/test/jest-setup.cjs',

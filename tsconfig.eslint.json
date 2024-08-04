@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "moduleResolution": "NodeNext"
+  },
   "extends": "./tsconfig.base.json",
   "exclude": ["node_modules/", "dist", "src/**/*.d.ts"]
 }
