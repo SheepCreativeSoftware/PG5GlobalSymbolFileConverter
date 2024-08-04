@@ -67,7 +67,6 @@ export default [
 				'error',
 				{
 					min: 3,
-					max: 30,
 				},
 			],
 			'init-declarations': ['error', 'always'],

@@ -1,6 +1,6 @@
 {
-  "name": "pg5globalsymbolfileconverter",
-  "version": "0.1.0-alpha.1",
+  "name": "@sheepcs/pg5-global-symbol-file-converter",
+  "version": "1.0.0",
   "description": "NPM module that converts PG5 Global Symbol files into JSON",
   "main": "dist/esm/index.js",
   "exports": {
@@ -22,6 +22,10 @@
     "lint:tsc": "tsc --noEmit",
     "prepare": "husky"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheepCreativeSoftware/PG5GlobalSymbolFileConverter.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -32,6 +36,7 @@
     "@swc/jest": "^0.2.36",
     "@types/eslint__js": "^8.42.3",
     "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.7",
     "dotenv": "^16.4.5",
     "eslint": "^9.8.0",
     "globals": "^15.9.0",
@@ -46,6 +51,7 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "readlines-iconv": "^2.1.0"
   }
 }
