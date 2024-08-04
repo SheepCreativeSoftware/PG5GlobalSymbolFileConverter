@@ -1,10 +1,10 @@
 # PG5GlobalSymbolFileConverter
 
-![CI](https://github.com/SheepCreativeSoftware/PG5GlobalSymbolFileConverter/.github/workflows/ci.yml/badge.svg)
-[![NPM Version](https://img.shields.io/npm/v/readlines-iconv.svg)](https://www.npmjs.com/package/readlines-iconv)
-[![NPM Downloads](https://img.shields.io/npm/dt/readlines-iconv.svg)](https://www.npmjs.com/package/readlines-iconv)
-[![GitHub](https://img.shields.io/github/license/SheepCreativeSoftware/readlines-iconv)](https://github.com/SheepCreativeSoftware/readlines-iconv)
-[![node-lts](https://img.shields.io/node/v-lts/readlines-iconv)](https://www.npmjs.com/package/readlines-iconv)
+![CI](https://github.com/SheepCreativeSoftware/PG5GlobalSymbolFileConverter/actions/workflows/ci.yml/badge.svg)
+[![NPM Version](https://img.shields.io/npm/v/@sheepcs/pg5-global-symbol-file-converter.svg)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
+[![NPM Downloads](https://img.shields.io/npm/dt/@sheepcs/pg5-global-symbol-file-converter.svg)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
+[![GitHub](https://img.shields.io/github/license/SheepCreativeSoftware/@sheepcs/pg5-global-symbol-file-converter)](https://github.com/SheepCreativeSoftware/@sheepcs/pg5-global-symbol-file-converter)
+[![node-lts](https://img.shields.io/node/v-lts/@sheepcs/pg5-global-symbol-file-converter)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=RG6PSXR828X94)
 
 NPM module that converts PG5 Global Symbol files into JSON
