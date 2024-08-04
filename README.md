@@ -3,7 +3,7 @@
 ![CI](https://github.com/SheepCreativeSoftware/PG5GlobalSymbolFileConverter/actions/workflows/ci.yml/badge.svg)
 [![NPM Version](https://img.shields.io/npm/v/@sheepcs/pg5-global-symbol-file-converter.svg)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
 [![NPM Downloads](https://img.shields.io/npm/dt/@sheepcs/pg5-global-symbol-file-converter.svg)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
-[![GitHub](https://img.shields.io/github/license/SheepCreativeSoftware/@sheepcs/pg5-global-symbol-file-converter)](https://github.com/SheepCreativeSoftware/@sheepcs/pg5-global-symbol-file-converter)
+[![GitHub](https://img.shields.io/github/license/SheepCreativeSoftware/PG5GlobalSymbolFileConverter)](https://github.com/SheepCreativeSoftware/PG5GlobalSymbolFileConverter)
 [![node-lts](https://img.shields.io/node/v-lts/@sheepcs/pg5-global-symbol-file-converter)](https://www.npmjs.com/package/@sheepcs/pg5-global-symbol-file-converter)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=RG6PSXR828X94)
 

@@ -1,6 +1,6 @@
 {
   "name": "@sheepcs/pg5-global-symbol-file-converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NPM module that converts PG5 Global Symbol files into JSON",
   "main": "dist/esm/index.js",
   "exports": {
